@@ -1,0 +1,20 @@
+{
+    "name": "ziorwebdev/plugin-common",
+    "description": "A common package for ZIORWeb.Dev plugins",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "ZiorWebDev\\PluginCommon\\": "php/"
+        }
+    },
+    "require": {
+        "php": "^^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ZIORWeb.Dev",
+            "email": "devs@ziorweb.dev"
+        }
+    ]
+}

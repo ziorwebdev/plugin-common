@@ -39,20 +39,6 @@ class Utilities {
 	}
 
 	/**
-	 * Returns the single instance of the Utilities class.
-	 *
-	 * @return Utilities The single instance of the Utilities class.
-	 */
-	public static function get_instance() {
-		// If the instance does not exist, create it
-		if ( null === self::$instance ) {
-			self::$instance = new self();
-		}
-
-		return self::$instance;
-	}
-
-	/**
 	 * Registers the elementor tags group.
 	 *
 	 * @return void
@@ -61,7 +47,7 @@ class Utilities {
 		$dynamic_tags_manager->register_group(
 			'ziorwebdev',
 			array(
-				'title' => esc_html__( 'ZIORWeb.Dev', 'plugin-common' ),
+				'title' => esc_html__( 'ZIORWebDev', 'plugin-common' ),
 			)
 		);
 	}
@@ -75,10 +61,24 @@ class Utilities {
 		$elements_manager->add_category(
 			'ziorwebdev',
 			array(
-				'title'  => esc_html__( 'ZIORWeb.Dev', 'plugin-common' ),
+				'title'  => esc_html__( 'ZIORWebDev', 'plugin-common' ),
 				'icon'   => 'eicon-apps',
 				'active' => false,
 			)
 		);
+	}
+
+	/**
+	 * Returns the single instance of the Utilities class.
+	 *
+	 * @return Utilities The single instance of the Utilities class.
+	 */
+	public static function get_instance() {
+		// If the instance does not exist, create it
+		if ( null === self::$instance ) {
+			self::$instance = new self();
+		}
+
+		return self::$instance;
 	}
 }

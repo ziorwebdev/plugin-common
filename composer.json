@@ -1,11 +1,11 @@
 {
     "name": "ziorwebdev/plugin-common",
     "description": "A common package for ZIORWeb.Dev plugins",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "ZiorWebDev\\PluginCommon\\": "src/"
+            "ZIORWebDev\\PluginCommon\\": "src/"
         }
     },
     "require": {

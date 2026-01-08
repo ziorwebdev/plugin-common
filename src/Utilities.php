@@ -2,10 +2,10 @@
 /**
  * Handles creation of WordPress admin menus and utilities.
  *
- * @package ZiorWebDev\PluginCommon
+ * @package ZIORWebDev\PluginCommon
  */
 
-namespace ZiorWebDev\PluginCommon;
+namespace ZIORWebDev\PluginCommon;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * Creates admin menu and submenu pages in WordPress dashboard.
  *
- * @package ZiorWebDev\PluginCommon
+ * @package ZIORWebDev\PluginCommon
  */
 class Utilities {
 

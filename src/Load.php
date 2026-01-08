@@ -2,15 +2,15 @@
 /**
  * Load class
  *
- * @package ZiorWebDev\PluginCommon
+ * @package ZIORWebDev\PluginCommon
  * @since 1.0.0
  */
-namespace ZiorWebDev\PluginCommon;
+namespace ZIORWebDev\PluginCommon;
 
 /**
  * Class Load
  *
- * @package ZiorWebDev\PluginCommon
+ * @package ZIORWebDev\PluginCommon
  * @since 1.0.0
  */
 final class Load {

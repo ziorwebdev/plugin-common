@@ -16,13 +16,6 @@ namespace ZIORWebDev\PluginCommon;
 final class Load {
 
 	/**
-	 * Package version.
-	 *
-	 * @var string
-	 */
-	protected static $package_version = '1.0.0';
-
-	/**
 	 * Singleton instance of the Plugin class.
 	 *
 	 * @var Load

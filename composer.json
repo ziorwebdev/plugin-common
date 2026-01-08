@@ -1,6 +1,7 @@
 {
     "name": "ziorwebdev/plugin-common",
     "description": "A common package for ZIORWeb.Dev plugins",
+    "version": "1.0.5",
     "type": "library",
     "autoload": {
         "psr-4": {
